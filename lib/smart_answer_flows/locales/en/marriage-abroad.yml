@@ -181,11 +181,6 @@ en-GB:
         make_an_appointment_bring_passport_and_pay_55_colombia: |
           Make an appointment at the local British embassy or consulate in Colombia to swear an affidavit (written statement of facts) that you’re free to marry. You’ll need to bring your passport and pay a fee of £55.
 
-        make_an_appointment_bring_passport_and_pay_55_brazil: |
-          Make an appointment at the local British embassy or consulate in Brazil to swear an affidavit (written statement of facts) that you’re free to marry. You’ll need to bring your passport and pay a fee of £55.
-
-        download_affidavit_forms_but_do_not_sign: |
-          You’ll need to complete an ‘Affidavit for marriage’ form that will be used for your affidavit. You can download and fill in (but not sign) the forms in advance.
 # affidavit phrases
         complete_affidavit: |
           You’ll need to complete an ‘Affidavit for marriage’ form that will be used for your affidavit. Take the completed form with you to your appointment.
@@ -193,11 +188,6 @@ en-GB:
         download_affidavit: |
           $D
           [Download ’Affidavit for Marriage’ (PDF, 446KB)](/government/uploads/system/uploads/attachment_data/file/293781/Affidavit_of_Marital_Status.pdf)
-          $D
-
-        download_affidavit_brazil: |
-          $D
-          [Download ’Affidavit for Marriage’ (PDF, 60KB)](/government/uploads/system/uploads/attachment_data/file/286008/Declaration_Marriage.pdf)
           $D
 
         contact_for_affidavit: |
@@ -666,18 +656,6 @@ en-GB:
           [Download ‘Affidavit for marriage’](/government/publications/affirmationaffidavit-of-marital-status-form)
           $D
 
-        consular_cni_os_download_affidavit_notary_public: |
-          You’ll need to swear an oath or affidavit (written statement of facts) in front of a notary public stating that you’re free to marry.
-
-          You can download and fill in (but not sign) the forms in advance.
-
-
-          $D
-          [Download ‘Notice of marriage’](/government/publications/notice-of-marriage-form--2)
-
-          [Download ‘Affidavit for marriage’](/government/publications/affirmationaffidavit-of-marital-status-form)
-          $D
-
         wait_300_days_before_remarrying: |
           ^If you’re a woman you must wait 300 days after divorcing or the death of your husband before remarrying.^
         display_notice_of_marriage_7_days: |
@@ -709,9 +687,6 @@ en-GB:
           Your local embassy will display your notice of marriage publicly for 7 days. They’ll then issue the CNI (as long as nobody has registered an objection).
 
           There’s an additional fee for this - the embassy or consulate will contact you to arrange payment.
-
-        notary_public_will_charge_a_fee: |
-          The notary public will charge a fee for taking the oath, and then give you your notice of marriage. You should take this notice to the local authorities where you’re getting married.
 
         same_cni_process_and_fees_for_partner: |
           ^Your partner will need to follow the same process and pay the fees to get their own CNI.^
@@ -1256,12 +1231,6 @@ en-GB:
           same_sex: "Same sex"
 
 # Outcomes
-# outcome Brazil not living in the UK
-      outcome_brazil_not_living_in_the_uk:
-        title: |
-          Marriage in Brazil
-        body: |
-          %{brazil_phraselist_not_in_the_uk}
 # outcome Monaco
       outcome_monaco:
         title: |
