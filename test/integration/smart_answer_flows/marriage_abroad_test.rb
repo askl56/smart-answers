@@ -2432,7 +2432,6 @@ class MarriageAbroadTest < ActiveSupport::TestCase
       add_response 'opposite_sex'
 
       assert_current_node :outcome_os_kosovo
-      assert_phrase_list :kosovo_os_phraselist, [:kosovo_uk_resident]
     end
 
     should "lead to a outcome_os_kosovo with local resident phraselist when residing in Kosovo" do
@@ -2441,7 +2440,6 @@ class MarriageAbroadTest < ActiveSupport::TestCase
       add_response 'opposite_sex'
 
       assert_current_node :outcome_os_kosovo
-      assert_phrase_list :kosovo_os_phraselist, [:kosovo_local_resident]
     end
   end
 

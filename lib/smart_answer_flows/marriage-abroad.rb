@@ -297,16 +297,7 @@ module SmartAnswer
 
       outcome :outcome_os_local_japan, use_outcome_templates: true
 
-      outcome :outcome_os_kosovo do
-        precalculate :kosovo_os_phraselist do
-          phrases = PhraseList.new
-          if resident_of == 'uk'
-            phrases << :kosovo_uk_resident
-          else
-            phrases << :kosovo_local_resident
-          end
-        end
-      end
+      outcome :outcome_os_kosovo, use_outcome_templates: true
 
       outcome :outcome_brazil_not_living_in_the_uk do
         precalculate :brazil_phraselist_not_in_the_uk do
