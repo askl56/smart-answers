@@ -291,17 +291,7 @@ module SmartAnswer
         end
       end
 
-      outcome :outcome_os_indonesia do
-        precalculate :indonesia_os_phraselist do
-          PhraseList.new(
-            :appointment_for_affidavit_indonesia,
-            :embassies_data,
-            :documents_for_divorced_or_widowed,
-            :partner_affidavit_needed,
-            :fee_table_45_70_55
-          )
-        end
-      end
+      outcome :outcome_os_indonesia, use_outcome_templates: true
 
       outcome :outcome_os_laos do
         precalculate :laos_os_phraselist do
