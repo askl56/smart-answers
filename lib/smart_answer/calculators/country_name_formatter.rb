@@ -5,7 +5,7 @@ module SmartAnswer::Calculators
 
     FRIENDLY_COUNTRY_NAME = {
       "democratic-republic-of-congo" => "Democratic Republic of Congo",
-      "cote-d-ivoire" => "Cote d'Ivoire",
+      "cote-d-ivoire" => "Cote d'Ivoire".html_safe,
       "pitcairn" => "Pitcairn Island",
       "south-korea" => "South Korea",
       "st-helena-ascension-and-tristan-da-cunha" => "St Helena, Ascension and Tristan da Cunha",

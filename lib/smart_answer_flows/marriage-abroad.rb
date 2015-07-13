@@ -277,26 +277,7 @@ module SmartAnswer
         next_node(:outcome_cp_all_other_countries)
       end
 
-      outcome :outcome_os_iom_ci do
-        precalculate :iom_ci_os_outcome do
-          phrases = PhraseList.new
-          phrases << :contact_local_authorities_in_country_marriage
-          if ceremony_country == 'spain'
-            phrases << :legal_restrictions_for_iom_residents_in_spain
-          end
-          if residency_uk_region == 'uk_iom'
-            phrases << :cni_for_iom_residents
-          else
-            phrases << :cni_for_channel_islands_residents
-          end
-          if ceremony_country == 'italy'
-            phrases << :british_embassy_in_rome_email
-          else
-            phrases << :embassies_data
-          end
-          phrases
-        end
-      end
+      outcome :outcome_os_iom_ci, use_outcome_templates: true
 
       outcome :outcome_ireland do
         precalculate :ireland_partner_sex_variant do

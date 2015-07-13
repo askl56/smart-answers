@@ -1544,7 +1544,6 @@ class MarriageAbroadTest < ActiveSupport::TestCase
     end
     should "go to iom/ci os outcome" do
       assert_current_node :outcome_os_iom_ci
-      assert_phrase_list :iom_ci_os_outcome, [:contact_local_authorities_in_country_marriage, :cni_for_channel_islands_residents, :british_embassy_in_rome_email]
     end
   end
 

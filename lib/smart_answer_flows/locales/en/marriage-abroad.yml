@@ -364,23 +364,6 @@ en-GB:
         book_online_china_affirmation_affidavit: |
           You’ll need to complete an [‘Affirmation for marriage’](/government/publications/affirmation-form-china) (non-religious) form or an [‘Affidavit for marriage’](/government/publications/affidavit-form-china) (religious) form in English.
 
-# Marriage if resident of Isle of Man or Channel Islands
-        legal_restrictions_for_iom_residents_in_spain: |
-          %There are certain legal restrictions if neither of you is resident in Spain. You should check with the [civil registry](http://www.mjusticia.gob.es/BUSCADIR/ServletControlador?apartado=buscadorGeneral&tipo=RC) where you’re planning to get married to find out if this is allowed.%
-        cni_for_iom_residents: |
-          You may be asked for a certificate of no impediment (CNI) or similar document. Check with the authorities in the [Isle of Man](http://www.gov.im/registries/general/civilregistry/) to find out what they can provide, then contact the authorities in %{country_name_lowercase_prefix} to confirm if this is acceptable.
-
-          The local British embassy or consulate may be able to advise if you have any problems getting the documents you need from the Manx authorities.
-        cni_for_channel_islands_residents: |
-          You may be asked for a certificate of no impediment (CNI) or similar document. Check with the authorities in [Jersey](http://www.gov.je/pages/contacts.aspx?contactId=71) or [Guernsey](http://www.guernseyroyalcourt.gg/article/1663/Contact-Us) to find out what they can provide, then contact the authorities in %{country_name_lowercase_prefix} to confirm if this is acceptable.
-
-          The local British embassy or consulate may be able to advise if you have any problems getting the documents you need from the authorities in Jersey or Guernsey.
-        british_embassy_in_rome_email: |
-          $C
-          **British Embassy in Rome - marriages**
-          <rome.marriages@fco.gov.uk>
-          $C
-
 # Marriage in Ireland outcome phrases
         outcome_ireland_opposite_sex: |
           The General Register Office of Ireland’s website explains what you need to do if you want to [get married in Ireland](http://www.groireland.ie/getting_married.htm).
@@ -1481,11 +1464,6 @@ en-GB:
           same_sex: "Same sex"
 
 # Outcomes
-# outcome Channel Isles and Isle of Man
-      outcome_os_iom_ci:
-        title:
-        body: |
-          %{iom_ci_os_outcome}
 # outcome Netherlands
       outcome_netherlands:
         title: |
