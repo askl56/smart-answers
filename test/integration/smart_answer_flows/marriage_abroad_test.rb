@@ -1980,7 +1980,6 @@ class MarriageAbroadTest < ActiveSupport::TestCase
     end
     should "go to portugal outcome" do
       assert_current_node :outcome_portugal
-      assert_phrase_list :portugal_title, [:marriage_title]
     end
   end
 
@@ -1995,7 +1994,6 @@ class MarriageAbroadTest < ActiveSupport::TestCase
     end
     should "go to portugal outcome" do
       assert_current_node :outcome_portugal
-      assert_phrase_list :portugal_title, [:marriage_title]
     end
   end
 
