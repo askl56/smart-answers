@@ -8,11 +8,11 @@ module SmartAnswer
 
       # Q1
       multiple_choice :how_much_starch_glucose? do
-        option 0
-        option 5
-        option 25
-        option 50
-        option 75
+        option 0  # 0 - 4.99
+        option 5  # 5 - 24.99
+        option 25 # 25 - 49.99
+        option 50 # 50 - 74.99
+        option 75 # 75 or more
 
         save_input_as :starch_glucose_weight
 
@@ -32,11 +32,11 @@ module SmartAnswer
 
       # Q2ab
       multiple_choice :how_much_sucrose_1? do
-        option 0
-        option 5
-        option 30
-        option 50
-        option 70
+        option 0  # 0 - 4.99
+        option 5  # 5 - 29.99
+        option 30 # 30 - 49.99
+        option 50 # 50 - 69.99
+        option 70 # 70 or more
 
         save_input_as :sucrose_weight
         next_node :how_much_milk_fat?
@@ -44,10 +44,10 @@ module SmartAnswer
 
       # Q2c
       multiple_choice :how_much_sucrose_2? do
-        option 0
-        option 5
-        option 30
-        option 50
+        option 0  # 0 - 4.99
+        option 5  # 5 - 29.99
+        option 30 # 30 - 49.99
+        option 50 # 50 or more
 
         save_input_as :sucrose_weight
         next_node :how_much_milk_fat?
@@ -55,9 +55,9 @@ module SmartAnswer
 
       # Q2d
       multiple_choice :how_much_sucrose_3? do
-        option 0
-        option 5
-        option 30
+        option 0  # 0 - 4.99
+        option 5  # 5 - 29.99
+        option 30 # 30 or more
 
         save_input_as :sucrose_weight
         next_node :how_much_milk_fat?
@@ -65,8 +65,8 @@ module SmartAnswer
 
       # Q2e
       multiple_choice :how_much_sucrose_4? do
-        option 0
-        option 5
+        option 0 # 0 - 4.99
+        option 5 # 5 or more
 
         save_input_as :sucrose_weight
         next_node :how_much_milk_fat?
@@ -74,18 +74,18 @@ module SmartAnswer
 
       # Q3
       multiple_choice :how_much_milk_fat? do
-        option 0
-        option 1
-        option 3
-        option 6
-        option 9
-        option 12
-        option 18
-        option 26
-        option 40
-        option 55
-        option 70
-        option 85
+        option 0  # 0 - 1.49
+        option 1  # 1.5 - 2.99
+        option 3  # 3 - 5.99
+        option 6  # 6 - 8.99
+        option 9  # 9 - 11.99
+        option 12 # 12 - 17.99
+        option 18 # 18 - 25.99
+        option 26 # 26 - 39.99
+        option 40 # 40 - 54.99
+        option 55 # 55 - 69.99
+        option 70 # 70 - 84.99
+        option 85 # 85 or more
 
         save_input_as :milk_fat_weight
 
@@ -109,12 +109,12 @@ module SmartAnswer
 
       # Q3ab
       multiple_choice :how_much_milk_protein_ab? do
-        option 0
-        option 2
-        option 6
-        option 18
-        option 30
-        option 60
+        option 0  # 0 - 2.49
+        option 2  # 2.5 - 5.99
+        option 6  # 6 - 17.99
+        option 18 # 18 - 29.99
+        option 30 # 30 - 59.99
+        option 60 # 60 or more
 
         save_input_as :milk_protein_weight
 
@@ -123,9 +123,9 @@ module SmartAnswer
 
       # Q3c
       multiple_choice :how_much_milk_protein_c? do
-        option 0
-        option 2
-        option 12
+        option 0  # 0-2.49
+        option 2  # 2.5-11.99
+        option 12 # 12 or more
 
         save_input_as :milk_protein_weight
 
@@ -134,9 +134,9 @@ module SmartAnswer
 
       # Q3d
       multiple_choice :how_much_milk_protein_d? do
-        option 0
-        option 4
-        option 15
+        option 0  # 0-3.99
+        option 4  # 4-14.99
+        option 15 # 15 or more
 
         save_input_as :milk_protein_weight
 
@@ -145,9 +145,9 @@ module SmartAnswer
 
       # Q3ef
       multiple_choice :how_much_milk_protein_ef? do
-        option 0
-        option 6
-        option 18
+        option 0  # 0-5.99
+        option 6  # 6-17.99
+        option 18 # 18 or more
 
         save_input_as :milk_protein_weight
 
@@ -156,8 +156,8 @@ module SmartAnswer
 
       # Q3gh
       multiple_choice :how_much_milk_protein_gh? do
-        option 0
-        option 6
+        option 0 # 0-5.99
+        option 6 # 6 or more
 
         save_input_as :milk_protein_weight
 
