@@ -67,7 +67,7 @@ class AdditionalCommodityCodeTest < ActiveSupport::TestCase
       context "answer 9" do
         should "ask how much milk protein the product contains" do
           add_response 9
-          assert_current_node :how_much_milk_protein_ef?
+          assert_current_node :how_much_milk_protein_up_to_18_percent_or_more?
         end
       end
       context "answer 18" do

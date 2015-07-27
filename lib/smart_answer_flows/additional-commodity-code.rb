@@ -98,7 +98,7 @@ module SmartAnswer
           when 6
             :how_much_milk_protein_up_to_15_percent_or_more?
           when 9, 12
-            :how_much_milk_protein_ef?
+            :how_much_milk_protein_up_to_18_percent_or_more?
           when 18, 26
             :how_much_milk_protein_gh?
           else
@@ -144,7 +144,7 @@ module SmartAnswer
       end
 
       # Q3ef
-      multiple_choice :how_much_milk_protein_ef? do
+      multiple_choice :how_much_milk_protein_up_to_18_percent_or_more? do
         option 0  # 0-5.99
         option 6  # 6-17.99
         option 18 # 18 or more
