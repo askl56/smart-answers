@@ -3152,9 +3152,9 @@
 - :current_node: :how_much_starch_glucose?
   :responses:
   - "25"
-  :next_node: :how_much_sucrose_2?
+  :next_node: :how_much_sucrose_up_to_50_percent_or_more?
   :outcome_node: false
-- :current_node: :how_much_sucrose_2?
+- :current_node: :how_much_sucrose_up_to_50_percent_or_more?
   :responses:
   - "25"
   - "0"
@@ -3468,7 +3468,7 @@
   - "85"
   :next_node: :commodity_code_result
   :outcome_node: true
-- :current_node: :how_much_sucrose_2?
+- :current_node: :how_much_sucrose_up_to_50_percent_or_more?
   :responses:
   - "25"
   - "5"
@@ -3782,7 +3782,7 @@
   - "85"
   :next_node: :commodity_code_result
   :outcome_node: true
-- :current_node: :how_much_sucrose_2?
+- :current_node: :how_much_sucrose_up_to_50_percent_or_more?
   :responses:
   - "25"
   - "30"
@@ -4096,7 +4096,7 @@
   - "85"
   :next_node: :commodity_code_result
   :outcome_node: true
-- :current_node: :how_much_sucrose_2?
+- :current_node: :how_much_sucrose_up_to_50_percent_or_more?
   :responses:
   - "25"
   - "50"

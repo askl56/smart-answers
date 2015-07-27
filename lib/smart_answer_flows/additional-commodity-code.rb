@@ -19,7 +19,7 @@ module SmartAnswer
         next_node do |response|
           case response.to_i
           when 25
-            :how_much_sucrose_2?
+            :how_much_sucrose_up_to_50_percent_or_more?
           when 50
             :how_much_sucrose_3?
           when 75
@@ -43,7 +43,7 @@ module SmartAnswer
       end
 
       # Q2c
-      multiple_choice :how_much_sucrose_2? do
+      multiple_choice :how_much_sucrose_up_to_50_percent_or_more? do
         option 0  # 0 - 4.99
         option 5  # 5 - 29.99
         option 30 # 30 - 49.99
