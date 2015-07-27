@@ -82,7 +82,7 @@ class AdditionalCommodityCodeTest < ActiveSupport::TestCase
         end
         ## Q3c
         should "ask how much milk protein the product contains" do
-          assert_current_node :how_much_milk_protein_c?
+          assert_current_node :how_much_milk_protein_up_to_12_percent_or_more?
         end
       end
     end

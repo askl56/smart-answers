@@ -71,7 +71,7 @@ en-GB:
           "18": "18 - 29.99"
           "30": "30 - 59.99"
           "60": "60 or more"
-      how_much_milk_protein_c?:
+      how_much_milk_protein_up_to_12_percent_or_more?:
         title: How much milk proteins does the product contain?
         hint: The values represent % by weight
         options:
