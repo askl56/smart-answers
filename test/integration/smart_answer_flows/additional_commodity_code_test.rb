@@ -45,7 +45,7 @@ class AdditionalCommodityCodeTest < ActiveSupport::TestCase
     ## Q2ab
     should "ask how much sucrose the product contains" do
       assert_state_variable "starch_glucose_weight", "5"
-      assert_current_node :how_much_sucrose_1?
+      assert_current_node :how_much_sucrose_up_to_70_percent_or_more?
     end
     context "answer 30" do
       setup do
