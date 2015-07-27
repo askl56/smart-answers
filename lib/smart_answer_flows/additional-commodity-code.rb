@@ -92,7 +92,7 @@ module SmartAnswer
         next_node do |response|
           case response.to_i
           when 0, 1
-            :how_much_milk_protein_ab?
+            :how_much_milk_protein_up_to_60_percent_or_more?
           when 3
             :how_much_milk_protein_c?
           when 6
@@ -108,7 +108,7 @@ module SmartAnswer
       end
 
       # Q3ab
-      multiple_choice :how_much_milk_protein_ab? do
+      multiple_choice :how_much_milk_protein_up_to_60_percent_or_more? do
         option 0  # 0 - 2.49
         option 2  # 2.5 - 5.99
         option 6  # 6 - 17.99

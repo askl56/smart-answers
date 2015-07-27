@@ -61,7 +61,7 @@ en-GB:
           "55": "55 - 69.99"
           "70": "70 - 84.99"
           "85": "85 or more"
-      how_much_milk_protein_ab?:
+      how_much_milk_protein_up_to_60_percent_or_more?:
         title: How much milk proteins does the product contain?
         hint: The values represent % by weight
         options:
