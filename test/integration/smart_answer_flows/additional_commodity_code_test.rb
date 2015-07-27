@@ -27,7 +27,7 @@ class AdditionalCommodityCodeTest < ActiveSupport::TestCase
     should "ask how much sucrose the product contains" do
       add_response 50
       assert_state_variable "starch_glucose_weight", "50"
-      assert_current_node :how_much_sucrose_3?
+      assert_current_node :how_much_sucrose_up_to_30_percent_or_more?
     end
   end
   context "answer 75" do

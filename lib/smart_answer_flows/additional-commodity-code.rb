@@ -21,7 +21,7 @@ module SmartAnswer
           when 25
             :how_much_sucrose_up_to_50_percent_or_more?
           when 50
-            :how_much_sucrose_3?
+            :how_much_sucrose_up_to_30_percent_or_more?
           when 75
             :how_much_sucrose_4?
           else
@@ -54,7 +54,7 @@ module SmartAnswer
       end
 
       # Q2d
-      multiple_choice :how_much_sucrose_3? do
+      multiple_choice :how_much_sucrose_up_to_30_percent_or_more? do
         option 0  # 0 - 4.99
         option 5  # 5 - 29.99
         option 30 # 30 or more
