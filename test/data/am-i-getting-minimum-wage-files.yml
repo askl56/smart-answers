@@ -11,6 +11,6 @@ lib/smart_answer_flows/am-i-getting-minimum-wage/past_payment_below.govspeak.erb
 lib/smart_answer_flows/am-i-getting-minimum-wage/under_school_leaving_age.govspeak.erb: 44bf68757d1ef90249d19f5d88ad4bc2
 lib/smart_answer_flows/am-i-getting-minimum-wage/under_school_leaving_age_past.govspeak.erb: 2182c103915b753894722760c9a56cf3
 lib/smart_answer_flows/shared/minimum_wage/_acas_information.govspeak.erb: 0d2f7c4d01e3c928701e7d649663707e
-lib/smart_answer_flows/shared_logic/minimum_wage.rb: 6e1367d5f252121fd9eaa50214c0e3dc
-lib/smart_answer/calculators/minimum_wage_calculator.rb: b752bc0c83fc492297f72591f78b411e
+lib/smart_answer_flows/shared_logic/minimum_wage.rb: 467831b3baaca79dcd8e0f1748ed280c
+lib/smart_answer/calculators/minimum_wage_calculator.rb: 1b89e0720aa27c24b2510d668e9dc4fb
 lib/data/minimum_wage_data.yml: 55c71c9ff8252c17a679dad888ad5ad7
